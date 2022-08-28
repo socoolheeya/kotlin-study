@@ -39,6 +39,6 @@ fun printString(str:String?) {
 }
 
 
-class Test2 {
+class Study2 {
 
 }

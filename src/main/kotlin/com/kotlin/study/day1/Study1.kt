@@ -6,7 +6,7 @@ import java.math.BigInteger
  * 테스트
  */
 fun main() {
-    val t = Test1()
+    val t = Study1()
     val a = t.plus(3, 6)
     println(a)
 
@@ -31,7 +31,7 @@ fun main() {
     println(sum(90, -300))
 }
 
-class Test1 {
+class Study1 {
     fun plus(x: Int, y: Int): Int {
         return x + y
     }
@@ -45,7 +45,7 @@ fun plus(x: BigInteger, y:BigInteger) :BigInteger {
     return x.add(y)
 }
 
-fun divide(x: Int, y:Int):Int {
+private fun divide(x: Int, y:Int):Int {
     val result = x / y
     if(y == 0) {
         throw IllegalStateException("0으로 못나눈다구!!")
@@ -53,6 +53,6 @@ fun divide(x: Int, y:Int):Int {
     return result
 }
 
-fun sum(x:Int, y:Int) = x + y
+private fun sum(x:Int, y:Int) = x + y
 
 

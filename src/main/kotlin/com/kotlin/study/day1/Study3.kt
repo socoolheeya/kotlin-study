@@ -20,5 +20,4 @@ fun convertAny(obj: Any): Any {
     }
 }
 
-class Test3 {
-}
+class Study3
